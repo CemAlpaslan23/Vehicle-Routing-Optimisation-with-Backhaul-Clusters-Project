@@ -1,0 +1,234 @@
+Cutting planes:
+  Gomory: 2
+  Implied bound: 66
+  MIR: 113
+  Zero half: 1
+  RLT: 9
+  Relax-and-lift: 305
+  BQP: 3
+  PSD: 8
+
+Explored 1773 nodes (38869 simplex iterations) in 39.76 seconds (45.30 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 1: 16402.1 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 1.640205238617e+04, best bound 1.627871919719e+04, gap 0.7519%
+
+Model Status is:  2
+
+Objective Function Value is:  16402.05238616599
+
+Total Distance Traveled by the Mathematical Formulation is:  247.05238616598945 kilometers
+
+Value of the Decision Variables are: 
+
+X[0,29,5] 1.000000
+X[0,30,9] 1.000000
+X[0,38,7] 1.000000
+X[0,39,2] 1.000000
+X[0,41,8] 1.000000
+X[0,46,1] 1.000000
+X[0,47,4] 1.000000
+X[0,48,3] 1.000000
+X[0,50,6] 1.000000
+X[1,43,4] 1.000000
+X[2,45,1] 1.000000
+X[3,40,4] 1.000000
+X[4,34,4] 1.000000
+X[5,17,4] 1.000000
+X[6,5,4] 1.000000
+X[7,15,6] 1.000000
+X[8,49,6] 1.000000
+X[9,12,4] 1.000000
+X[10,11,5] 1.000000
+X[11,0,5] 1.000000
+X[12,3,4] 1.000000
+X[13,10,5] 1.000000
+X[14,16,3] 1.000000
+X[15,0,6] 1.000000
+X[16,0,3] 1.000000
+X[17,4,4] 1.000000
+X[18,26,1] 1.000000
+X[19,6,4] 1.000000
+X[20,13,5] 1.000000
+X[21,9,4] 1.000000
+X[22,42,6] 1.000000
+X[23,21,4] 1.000000
+X[24,25,1] 1.000000
+X[25,44,1] 1.000000
+X[26,35,1] 1.000000
+X[27,14,3] 1.000000
+X[28,20,5] 1.000000
+X[29,28,5] 1.000000
+X[30,0,9] 1.000000
+X[31,18,1] 1.000000
+X[32,31,1] 1.000000
+X[33,1,4] 1.000000
+X[34,33,4] 1.000000
+X[35,37,1] 1.000000
+X[36,0,8] 1.000000
+X[37,0,1] 1.000000
+X[38,0,7] 1.000000
+X[39,0,2] 1.000000
+X[40,0,4] 1.000000
+X[41,36,8] 1.000000
+X[42,7,6] 1.000000
+X[43,23,4] 1.000000
+X[44,32,1] 1.000000
+X[45,24,1] 1.000000
+X[46,2,1] 1.000000
+X[47,19,4] 1.000000
+X[48,27,3] 1.000000
+X[49,22,6] 1.000000
+X[50,8,6] 1.000000
+B[1] 331.650848
+B[2] 30.000000
+B[3] 472.941107
+B[4] 51.059504
+B[5] 37.000574
+B[6] 30.000000
+B[7] 80.239908
+B[8] 52.026817
+B[9] 360.000000
+B[10] 420.000000
+B[11] 450.000000
+B[12] 390.000000
+B[13] 390.000000
+B[14] 82.995790
+B[15] 87.277405
+B[16] 90.000000
+B[17] 44.012516
+B[18] 118.119595
+B[19] 22.016617
+B[20] 29.124271
+B[21] 352.988474
+B[22] 66.089138
+B[23] 345.853924
+B[24] 82.914570
+B[25] 90.000000
+B[26] 435.811087
+B[27] 37.091211
+B[28] 22.117342
+B[29] 15.000000
+B[30] 7.035170
+B[31] 111.103004
+B[32] 104.081734
+B[33] 324.501760
+B[34] 58.332083
+B[35] 442.833132
+B[36] 450.000000
+B[37] 450.000000
+B[38] 15.000000
+B[39] 15.000000
+B[40] 480.000000
+B[41] 442.957050
+B[42] 73.115391
+B[43] 338.804337
+B[44] 97.049068
+B[45] 75.896368
+B[46] 7.027742
+B[47] 15.000000
+B[48] 30.000000
+B[49] 59.032465
+B[50] 45.000000
+U[0,1] 202.400000
+U[0,2] 202.400000
+U[0,3] 202.400000
+U[0,4] 202.400000
+U[0,5] 202.400000
+U[0,6] 202.400000
+U[0,7] 202.400000
+U[0,8] 202.400000
+U[0,9] 13.486000
+U[1,4] 85.206000
+U[2,1] 190.586000
+U[3,4] 12.980000
+U[4,4] 121.638000
+U[5,4] 165.220000
+U[6,4] 178.222000
+U[7,6] 22.616000
+U[8,6] 72.336000
+U[9,4] 35.750000
+U[10,5] 23.188000
+U[11,5] 11.682000
+U[12,4] 24.684000
+U[13,5] 35.574000
+U[14,3] 24.156000
+U[15,6] 11.374000
+U[16,3] 11.594000
+U[17,4] 152.350000
+U[18,1] 23.166000
+U[19,4] 190.388000
+U[20,5] 49.038000
+U[21,4] 47.212000
+U[22,6] 48.378000
+U[23,4] 58.520000
+U[24,1] 168.102000
+U[25,1] 156.178000
+U[26,1] 11.594000
+U[27,3] 191.092000
+U[28,5] 191.334000
+U[29,5] 202.400000
+U[30,9] 13.486000
+U[31,1] 120.538000
+U[32,1] 133.012000
+U[33,4] 97.240000
+U[34,4] 108.878000
+U[41,8] 202.400000
+U[42,6] 35.090000
+U[43,4] 72.006000
+U[44,1] 144.474000
+U[45,1] 179.366000
+U[46,1] 202.400000
+U[47,4] 202.400000
+U[48,3] 202.400000
+U[49,6] 61.292000
+U[50,6] 202.400000
+Y[1,1] 1.000000
+Z[1] 92.135987
+Z[2] 14.092119
+Z[3] 35.267038
+Z[4] 120.223780
+Z[5] 49.653083
+Z[6] 56.394030
+Z[7] 14.094109
+Z[8] 21.187054
+Z[9] 14.070340
+
+Established Tours:
+
+Vehicle 1 Tour: 0  -> 46 (Delivery Location)  -> 2 (Delivery Location)  -> 45 (Delivery Location)  -> 24 (Delivery Location)  -> 25 (Delivery Location)  -> 44 (Delivery Location)  -> 32 (Delivery Location)  -> 31 (Delivery Location)  -> 18 (Delivery Location)  -> 26 (Delivery Location)  -> 35 (Pickup Location)  -> 37 (Pickup Location)  -> 0
+
+Vehicle 2 Tour: 0  -> 39 (Pickup Location)  -> 0
+
+Vehicle 3 Tour: 0  -> 48 (Delivery Location)  -> 27 (Delivery Location)  -> 14 (Delivery Location)  -> 16 (Delivery Location)  -> 0
+
+Vehicle 4 Tour: 0  -> 47 (Delivery Location)  -> 19 (Delivery Location)  -> 6 (Delivery Location)  -> 5 (Delivery Location)  -> 17 (Delivery Location)  -> 4 (Delivery Location)  -> 34 (Delivery Location)  -> 33 (Delivery Location)  -> 1 (Delivery Location)  -> 43 (Delivery Location)  -> 23 (Delivery Location)  -> 21 (Delivery Location)  -> 9 (Delivery Location)  -> 12 (Delivery Location)  -> 3 (Delivery Location)  -> 40 (Pickup Location)  -> 0
+
+Vehicle 5 Tour: 0  -> 29 (Delivery Location)  -> 28 (Delivery Location)  -> 20 (Delivery Location)  -> 13 (Delivery Location)  -> 10 (Delivery Location)  -> 11 (Delivery Location)  -> 0
+
+Vehicle 6 Tour: 0  -> 50 (Delivery Location)  -> 8 (Delivery Location)  -> 49 (Delivery Location)  -> 22 (Delivery Location)  -> 42 (Delivery Location)  -> 7 (Delivery Location)  -> 15 (Delivery Location)  -> 0
+
+Vehicle 7 Tour: 0  -> 38 (Pickup Location)  -> 0
+
+Vehicle 8 Tour: 0  -> 41 (Delivery Location)  -> 36 (Pickup Location)  -> 0
+
+Vehicle 9 Tour: 0  -> 30 (Delivery Location)  -> 0
+
+Established Tours After Applying the 2-opt Algorithm:
+
+Tour: [0, 18, 31, 32, 44, 25, 24, 45, 26, 35, 2, 37, 46, 0]
+Tour: [0, 39, 0]
+Tour: [0, 48, 27, 16, 14, 0]
+Tour: [0, 47, 19, 6, 5, 17, 4, 43, 23, 3, 40, 12, 9, 21, 1, 34, 33, 0]
+Tour: [0, 29, 10, 11, 13, 20, 28, 0]
+Tour: [0, 22, 42, 49, 8, 50, 7, 15, 0]
+Tour: [0, 38, 0]
+Tour: [0, 41, 36, 0]
+Tour: [0, 30, 0]
+
+With a Total Traveling Distance After Applying the 2-opt Algorithm:  204.02 kilometers
+
+Total Distance Saved by 2-opt Algorithm is:  43.032386165989436 kilometers
